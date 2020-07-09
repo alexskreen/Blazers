@@ -9,6 +9,7 @@ import NewsFeed from './PreGame/NewsFeed';
 import UpcomingGames from './PreGame/UpcomingGames';
 import ArenaInfo from './PreGame/ArenaInfo';
 import Footer from './PreGame/Footer';
+import PostGame from './PostGame/index';
 
 import SimpleLinks from './simpleLinks';
 import KeyPlayersStats from './zzGraveYard/keyPlayStats/KeyPlayersStats';
@@ -39,6 +40,8 @@ function App() {
             <Route path='/UpcomingGames' component={UpcomingGames} />
             <Route path='/ArenaInfo' component={ArenaInfo} />
             <Route path='/Footer' component={Footer} />
+            <Route path='/PostGame' component={PostGame} />
+
           </div>
 
           {/* ////////// Old Components ///////// */}

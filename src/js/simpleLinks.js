@@ -9,6 +9,9 @@ const SimpleLinks = () => {
       <p style={{ fontWeight: 'bolder', margin: '10px', fontSize: '1.5em' }}>
         <Link to='/pre-game'>Pre Game master layout</Link>
       </p>
+      <p style={{ fontWeight: 'bolder', margin: '10px', fontSize: '1.5em' }}>
+        <Link to='./../PostGame/index'>Post Game master layout</Link>
+      </p>
       <p>
         <ol>
           <li>
